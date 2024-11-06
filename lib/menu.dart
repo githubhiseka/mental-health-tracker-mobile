@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mental_health_tracker/menu.dart';
 
 class MyHomePage extends StatelessWidget {
     MyHomePage({super.key});
@@ -12,7 +11,7 @@ class MyHomePage extends StatelessWidget {
         ItemHomepage("Tambah Mood", Icons.add),
         ItemHomepage("Logout", Icons.logout),
     ];
-    }
+
 
     @override
     Widget build(BuildContext context) {
@@ -92,6 +91,7 @@ class MyHomePage extends StatelessWidget {
         ),
         );
     }
+}
 
 class InfoCard extends StatelessWidget {
     // Kartu informasi yang menampilkan title dan content.
